@@ -10,7 +10,7 @@ terraform {
 provider "equinix" {
   # Configuration options 
   # Credentials for only Equinix Metal resources 
-  auth_token = ""
+  auth_token = "my_auth_token"
 }
 
 #specs of server and machine  
