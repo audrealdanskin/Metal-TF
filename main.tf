@@ -20,17 +20,17 @@ resource "equinix_metal_device" "web1" {
   metro = "da"
   operating_system = "ubuntu_20_04"
   billing_cycle = "hourly"
-  project_id = ""
+  project_id = "my_project_id"
 }
 
 resource "equinix_metal_vlan" "vlan1" {
   description = "VLAN in da"
   metro = "da"
-  project_id = ""
+  project_id = "my_project_id"
 }
 
 resource "equinix_metal_vlan" "vlan1" {
   description = "VLAN in SV"
   metro = "sv"
-  project_id = ""
+  project_id = "my_project_id"
 }
